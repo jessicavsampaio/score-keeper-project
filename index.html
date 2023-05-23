@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <img src="./src/images/lennart-schneider-2Ov5_5WKaKM-unsplash.jpg" alt="ping-pong-image">
+        <div id="title">
+            <h3>Ping Pong Score Keeper</h3>
+        </div>
+        <div id="main">
+            <div id="scoreboard">
+                <h1> <span id="scoreDisplayP1">0</span> to <span id="scoreDisplayP2">0</span></h1>
+            </div>
+
+            <div>
+
+                <span>Use the buttons bellow to keep score.</span>
+
+                <div id="selector">
+                    <p>Playing To</p>
+                    <select name="select" id="select">
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="buttons">
+                <button id="p1Button">+1 Player 1</button>
+                <button id="p2Button">+1 Player 2</button>
+                <button id="resetButton">Reset</button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./src/js/app.js"></script>
+</body>
+
+</html>
